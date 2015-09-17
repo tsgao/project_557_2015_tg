@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3C76FB353BDE48C79358F5BA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C3BFF95CC1714C2EADF0F507 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				604AC20ADE674B23BD93382E /* CMake Rules */,
+			);
+			dependencies = (
+				B5A4E8556FE14CAC8219D903 /* PBXTargetDependency */,
+				746885DA60AA41F79575F55D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9F1A90A8213342E4B3C6E05E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA59F6D9D58C445A91AD06C7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2A41D8CDD60C43F89BC47BC1 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4EE2E573E89A4AC999511E23 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.cpp */ = {isa = PBXBuildFile; fileRef = 484AFE26D7C345AB8623BECC /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		717AEEBB9AE348469AF7AA28 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.cpp */ = {isa = PBXBuildFile; fileRef = 3F1941338B6944BE8C5D14AB /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		891D2EF90BF24E18B249823B /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.h */ = {isa = PBXBuildFile; fileRef = 83ACC70326CD4466B286581D /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BA65F03A57534838B54D6DAC /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/hw2_main.cpp */ = {isa = PBXBuildFile; fileRef = 4FAC640E293640C38276832F /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/hw2_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D161F37B8D20411891F5674F /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 55967934AB97432A99153730 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		E4F7BB900FF04BBFB3BACC62 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.h */ = {isa = PBXBuildFile; fileRef = A7306539AA8B4BF0BB1F7AC9 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		7A9FBD57B4624EC683EA20C8 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8B69C4C33692480888239904 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A8143CF0E7E64D8E9EFA60F5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E8FF19A7A84543F6BB75F842 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FC65FE5927A043C9A5F9D390 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5D81EB6C8D48C7A159C0AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5BB90F48C54687AE027E72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1A90A8213342E4B3C6E05E;
+			remoteInfo = ZERO_CHECK;
+		};
+		75071F59D772424EB545C69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5BB90F48C54687AE027E72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1A90A8213342E4B3C6E05E;
+			remoteInfo = ZERO_CHECK;
+		};
+		EB22C95CB7AF4BA4B34964D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5BB90F48C54687AE027E72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8C0EE3043D4363BB6BC44A;
+			remoteInfo = HW2_Program;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024B3D18177F444081FF8CF8 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3F1941338B6944BE8C5D14AB /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HCI557Common.cpp; path = HCI557Common.cpp; sourceTree = SOURCE_ROOT; };
+		484AFE26D7C345AB8623BECC /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controls.cpp; path = controls.cpp; sourceTree = SOURCE_ROOT; };
+		4FAC640E293640C38276832F /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/hw2_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw2_main.cpp; path = hw2_main.cpp; sourceTree = SOURCE_ROOT; };
+		55967934AB97432A99153730 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		83ACC70326CD4466B286581D /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Common.h; path = HCI557Common.h; sourceTree = SOURCE_ROOT; };
+		A7306539AA8B4BF0BB1F7AC9 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = controls.h; path = controls.h; sourceTree = SOURCE_ROOT; };
+		CA4EBD001FE74882A93D103E /* HW2_Program */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HW2_Program; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC36B0CBBB1448E2B8EC9A7A /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3B4C5F5FA3A34097A12FA37F /* HW2_Program */ = {
+			isa = PBXGroup;
+			children = (
+				9C123A1D229342DE803CE3CF /* Source Files */,
+				E3FD363BEDD5482C8A899B42 /* Header Files */,
+				55967934AB97432A99153730 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */,
+			);
+			name = HW2_Program;
+			sourceTree = "<group>";
+		};
+		3F9CEE5E70B3494D9C154739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4EBD001FE74882A93D103E /* HW2_Program */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F85C6FFA0D49C49BD1BE91 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				75D3AF81381B4928A28F637A /* ALL_BUILD */,
+				62B689BAE9694540AB254975 /* ZERO_CHECK */,
+				3B4C5F5FA3A34097A12FA37F /* HW2_Program */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		62B689BAE9694540AB254975 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				FD8D454586B24065B44F59E9 /* CMake Rules */,
+				EC36B0CBBB1448E2B8EC9A7A /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		75D3AF81381B4928A28F637A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DB27D48F21F74A449EF24432 /* CMake Rules */,
+				024B3D18177F444081FF8CF8 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		978EA9503AE94EF58E226C9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99CCC239E73D423F90056FA7 = {
+			isa = PBXGroup;
+			children = (
+				43F85C6FFA0D49C49BD1BE91 /* Sources */,
+				978EA9503AE94EF58E226C9B /* Resources */,
+				3F9CEE5E70B3494D9C154739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C123A1D229342DE803CE3CF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F1941338B6944BE8C5D14AB /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.cpp */,
+				484AFE26D7C345AB8623BECC /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.cpp */,
+				4FAC640E293640C38276832F /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/hw2_main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DB27D48F21F74A449EF24432 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E3FD363BEDD5482C8A899B42 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				83ACC70326CD4466B286581D /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.h */,
+				A7306539AA8B4BF0BB1F7AC9 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FD8D454586B24065B44F59E9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A8C0EE3043D4363BB6BC44A /* HW2_Program */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026B855D214C478A8AC0A430 /* Build configuration list for PBXNativeTarget "HW2_Program" */;
+			buildPhases = (
+				467DAC3400484063829DCAD6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F3791CDC994BDEB8F48FB2 /* PBXTargetDependency */,
+			);
+			name = HW2_Program;
+			productName = HW2_Program;
+			productReference = CA4EBD001FE74882A93D103E /* HW2_Program */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5BB90F48C54687AE027E72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 62D8D5ED21CD470982842511 /* Build configuration list for PBXProject "HW2_Program" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7A9FBD57B4624EC683EA20C8 /* Debug */,
+				8B69C4C33692480888239904 /* Release */,
+				A8143CF0E7E64D8E9EFA60F5 /* MinSizeRel */,
+				E8FF19A7A84543F6BB75F842 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 99CCC239E73D423F90056FA7;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				3C76FB353BDE48C79358F5BA /* ALL_BUILD */,
+				6A8C0EE3043D4363BB6BC44A /* HW2_Program */,
+				9F1A90A8213342E4B3C6E05E /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A41D8CDD60C43F89BC47BC1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling -f /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2A4ED224E77546AA8A10D528 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		604AC20ADE674B23BD93382E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling -f /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F8766168B1B549B3BB747B26 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467DAC3400484063829DCAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717AEEBB9AE348469AF7AA28 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.cpp */,
+				4EE2E573E89A4AC999511E23 /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.cpp */,
+				BA65F03A57534838B54D6DAC /* /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/hw2_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06F3791CDC994BDEB8F48FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1A90A8213342E4B3C6E05E /* ZERO_CHECK */;
+			targetProxy = 75071F59D772424EB545C69F /* PBXContainerItemProxy */;
+		};
+		746885DA60AA41F79575F55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1A90A8213342E4B3C6E05E /* ZERO_CHECK */;
+			targetProxy = 0B5D81EB6C8D48C7A159C0AC /* PBXContainerItemProxy */;
+		};
+		B5A4E8556FE14CAC8219D903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A8C0EE3043D4363BB6BC44A /* HW2_Program */;
+			targetProxy = EB22C95CB7AF4BA4B34964D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08EAAF515117441FAE981844 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		1496580B23C04F20B4A46D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW2_Program;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		20CCE3DFBF0D4BF6B379FF15 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW2_Program;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		2A81739E274B4B21A1F7CCEE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2B71AFD7764449DABFE30021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		3260793518C34B608B0F4538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4CEF6CE9FAA341298ABD4D4A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW2_Program;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		4D6B994901474F13B660190D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HW2_Program;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		54136AF4F84C4E1896F7CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/build";
+			};
+			name = Debug;
+		};
+		5F979627F49640DAA15DA953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/build";
+			};
+			name = Release;
+		};
+		6ACC06A795504E3FA1D3F5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		895312CCE2BF4A479177A8CA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		8FB07C5ECD2148F89BC2F55F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		CD89817F28314248BE1C34AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/build";
+			};
+			name = MinSizeRel;
+		};
+		E0349B76711C4129AB405FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F958F59AAD8649D0BCE871FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks, );
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026B855D214C478A8AC0A430 /* Build configuration list for PBXNativeTarget "HW2_Program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6B994901474F13B660190D /* Debug */,
+				1496580B23C04F20B4A46D5B /* Release */,
+				4CEF6CE9FAA341298ABD4D4A /* MinSizeRel */,
+				20CCE3DFBF0D4BF6B379FF15 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62D8D5ED21CD470982842511 /* Build configuration list for PBXProject "HW2_Program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54136AF4F84C4E1896F7CD73 /* Debug */,
+				5F979627F49640DAA15DA953 /* Release */,
+				CD89817F28314248BE1C34AD /* MinSizeRel */,
+				2A81739E274B4B21A1F7CCEE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA59F6D9D58C445A91AD06C7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACC06A795504E3FA1D3F5DF /* Debug */,
+				3260793518C34B608B0F4538 /* Release */,
+				895312CCE2BF4A479177A8CA /* MinSizeRel */,
+				F958F59AAD8649D0BCE871FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3BFF95CC1714C2EADF0F507 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0349B76711C4129AB405FEB /* Debug */,
+				2B71AFD7764449DABFE30021 /* Release */,
+				08EAAF515117441FAE981844 /* MinSizeRel */,
+				8FB07C5ECD2148F89BC2F55F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE5BB90F48C54687AE027E72 /* Project object */;
+}
