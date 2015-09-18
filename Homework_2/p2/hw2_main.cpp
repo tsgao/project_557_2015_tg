@@ -102,121 +102,121 @@ unsigned int createTriangleStripModel(void)
     float *colors = new float[150]; // Colors for our vertices
     //A
     vertices[0] = 0; vertices[1] = 0; vertices[2] = 2;
-    colors[0] = 1.0; colors[1] = 1.0; colors[2] = 1.0;
+    colors[0] = 0.0; colors[1] = 0.0; colors[2] = 1.0;
     //B
     vertices[3] = 0; vertices[4] = 1; vertices[5] = 2;
-    colors[3] = 1.0; colors[4] = 0.0; colors[5] = 0.0;
+    colors[3] = 0.0; colors[4] = 0.0; colors[5] = 1.0;
     //C
     vertices[6] = 1; vertices[7] = 0; vertices[8] = 2;
-    colors[6] = 0.0; colors[7] = 1.0; colors[8] = 0.0;
+    colors[6] = 0.0; colors[7] = 0.0; colors[8] = 1.0;
     //D
     vertices[9] = 1; vertices[10] = 1; vertices[11] = 2;
     colors[9] = 0.0; colors[10] = 0.0; colors[11] = 1.0;
     //E
     vertices[12] = 1; vertices[13] = 1; vertices[14] = 0;
-    colors[12] = 1.0; colors[13] = 1.0; colors[14] = 1.0;
+    colors[12] = 0.0; colors[13] = 0.0; colors[14] = 1.0;
     //F
     vertices[15] = 0; vertices[16] = 1; vertices[17] = 2;
-    colors[15] = 0.0; colors[16] = 1.0; colors[17] = 0.0;
+    colors[15] = 0.0; colors[16] = 0.0; colors[17] = 1.0;
     //G
     vertices[18] = 0; vertices[19] = 1; vertices[20] = 0;
-    colors[18] = 0.0; colors[19] = 1.0; colors[20] = 0.0;
+    colors[18] = 0.0; colors[19] = 0.0; colors[20] = 1.0;
     //H
     vertices[21] = 0; vertices[22] = 0; vertices[23] = 2;
-    colors[21] = 0.0; colors[22] = 1.0; colors[23] = 0.0;
+    colors[21] = 0.0; colors[22] = 0.0; colors[23] = 1.0;
     //I
     vertices[24] = 0; vertices[25] = 0; vertices[26] = 0;
-    colors[24] = 1.0; colors[25] = 1.0; colors[26] = 1.0;
+    colors[24] = 0.0; colors[25] = 0.0; colors[26] = 1.0;
     //J
     vertices[27] = 1; vertices[28] = 0; vertices[29] = 2;
-    colors[27] = 1.0; colors[28] = 0.0; colors[29] = 0.0;
+    colors[27] = 0.0; colors[28] = 0.0; colors[29] = 1.0;
     //K
     vertices[30] = 1; vertices[31] = 0; vertices[32] = 0;
-    colors[30] = 0.0; colors[31] = 1.0; colors[32] = 0.0;
+    colors[30] = 0.0; colors[31] = 0.0; colors[32] = 1.0;
     //L
     vertices[33] = 1; vertices[34] = 1; vertices[35] = 0;
-    colors[33] = 1.0; colors[34] = 1.0; colors[35] = 0.0;
+    colors[33] = 0.0; colors[34] = 0.0; colors[35] = 1.0;
     //M
     vertices[36] = 1; vertices[37] = 0; vertices[38] = 0;
-    colors[36] = 0.0; colors[37] = 1.0; colors[38] = 0.0;
+    colors[36] = 0.0; colors[37] = 0.0; colors[38] = 1.0;
     //N
     vertices[39] = 3; vertices[40] = 0; vertices[41] = 0;
-    colors[39] = 1.0; colors[40] = 0.0; colors[41] = 0.0;
+    colors[39] = 0.0; colors[40] = 0.0; colors[41] = 1.0;
     //O
     vertices[42] = 1; vertices[43] = 2; vertices[44] = 0;
-    colors[42] = 0.0; colors[43] = 1.0; colors[44] = 0.0;
+    colors[42] = 0.0; colors[43] = 0.0; colors[44] = 1.0;
     //P
     vertices[45] = 3; vertices[46] = 1; vertices[47] = 0;
-    colors[45] = 1.0; colors[46] = 1.0; colors[47] = 0.0;
+    colors[45] = 0.0; colors[46] = 0.0; colors[47] = 1.0;
     //Q
     vertices[48] = 3; vertices[49] = 0; vertices[50] = 0;
     colors[48] = 0.0; colors[49] = 0.0; colors[50] = 1.0;
     //R
     vertices[51] = 3; vertices[52] = 0; vertices[53] = -1;
-    colors[51] = 1.0; colors[52] = 1.0; colors[53] = 1.0;
+    colors[51] = 0.0; colors[52] = 0.0; colors[53] = 1.0;
     //S
     vertices[54] = 3; vertices[55] = 1; vertices[56] = -1;
-    colors[54] = 0.0; colors[55] = 1.0; colors[56] = 0.0;
+    colors[54] = 0.0; colors[55] = 0.0; colors[56] = 1.0;
     //T
     vertices[57] = 3; vertices[58] = 1; vertices[59] = 0;
-    colors[57] = 0.0; colors[58] = 1.0; colors[59] = 1.0;
+    colors[57] = 0.0; colors[58] = 0.0; colors[59] = 1.0;
     //U
     vertices[60] = 1; vertices[61] = 2; vertices[62] = 0;
-    colors[60] = 1.0; colors[61] = 0.0; colors[62] = 0.0;
+    colors[60] = 0.0; colors[61] = 0.0; colors[62] = 1.0;
     //V
     vertices[63] = 3; vertices[64] = 1; vertices[65] = -1;
-    colors[63] = 0.0; colors[64] = 1.0; colors[65] = 0.0;
+    colors[63] = 0.0; colors[64] = 0.0; colors[65] = 1.0;
     //W
     vertices[66] = 1; vertices[67] = 2; vertices[68] = -1;
-    colors[66] = 1.0; colors[67] = 1.0; colors[68] = 0.0;
+    colors[66] = 0.0; colors[67] = 0.0; colors[68] = 1.0;
     //X
     vertices[69] = 3; vertices[70] = 0; vertices[71] = -1;
-    colors[69] = 0.0; colors[70] = 1.0; colors[71] = 1.0;
+    colors[69] = 0.0; colors[70] = 0.0; colors[71] = 1.0;
     //Y
     vertices[72] = 1; vertices[73] = 0; vertices[74] = -1;
-    colors[72] = 1.0; colors[73] = 0.0; colors[74] = 0.0;
+    colors[72] = 0.0; colors[73] = 0.0; colors[74] = 1.0;
     //Z
     vertices[75] = 3; vertices[76] = 0; vertices[77] = 0;
-    colors[75] = 0.0; colors[76] = 1.0; colors[77] = 0.0;
+    colors[75] = 0.0; colors[76] = 0.0; colors[77] = 1.0;
     //0
     vertices[78] = 0; vertices[79] = 0; vertices[80] = 0;
-    colors[78] = 1.0; colors[79] = 1.0; colors[80] = 1.0;
+    colors[78] = 0.0; colors[79] = 0.0; colors[80] = 1.0;
     //1
     vertices[81] = 0; vertices[82] = 0; vertices[83] = -1;
-    colors[81] = 0.0; colors[82] = 1.0; colors[83] = 0.0;
+    colors[81] = 0.0; colors[82] = 0.0; colors[83] = 1.0;
     //2
     vertices[84] = 1; vertices[85] = 0; vertices[86] = -1;
-    colors[84] = 1.0; colors[85] = 1.0; colors[86] = 0.0;
+    colors[84] = 0.0; colors[85] = 0.0; colors[86] = 1.0;
     //3
     vertices[87] = 0; vertices[88] = 2; vertices[89] = -1;
-    colors[87] = 0.0; colors[88] = 1.0; colors[89] = 1.0;
+    colors[87] = 0.0; colors[88] = 0.0; colors[89] = 1.0;
     //4
     vertices[90] = 1; vertices[91] = 2; vertices[92] = -1;
-    colors[90] = 0.0; colors[91] = 1.0; colors[92] = 0.0;
+    colors[90] = 0.0; colors[91] = 0.0; colors[92] = 1.0;
     //5
     vertices[93] = 0; vertices[94] = 2; vertices[95] = 0;
-    colors[93] = 0.0; colors[94] = 1.0; colors[95] = 0.0;
+    colors[93] = 0.0; colors[94] = 0.0; colors[95] = 1.0;
     //6
     vertices[96] = 1; vertices[97] = 2; vertices[98] = 0;
-    colors[96] = 0.0; colors[97] = 1.0; colors[98] = 0.0;
+    colors[96] = 0.0; colors[97] = 0.0; colors[98] = 1.0;
     //7
     vertices[99] = 1; vertices[100] = 1; vertices[101] = 0;
-    colors[99] = 1.0; colors[100] = 0.0; colors[101] = 1.0;
+    colors[99] = 0.0; colors[100] = 0.0; colors[101] = 1.0;
     //8
     vertices[102] = 0; vertices[103] = 1; vertices[104] = 0;
-    colors[102] = 0.0; colors[103] = 1.0; colors[104] = 0.0;
+    colors[102] = 0.0; colors[103] = 0.0; colors[104] = 1.0;
     //9
     vertices[105] = 0; vertices[106] = 2; vertices[107] = 0;
-    colors[105] = 0.0; colors[106] = 1.0; colors[107] = 1.0;
+    colors[105] = 0.0; colors[106] = 0.0; colors[107] = 1.0;
     //10
     vertices[108] = 0; vertices[109] = 2; vertices[110] = -1;
-    colors[108] = 1.0; colors[109] = 1.0; colors[110] = 0.0;
+    colors[108] = 0.0; colors[109] = 0.0; colors[110] = 1.0;
     //11
     vertices[111] = 0; vertices[112] = 0; vertices[113] = 0;
-    colors[111] = 0.0; colors[112] = 1.0; colors[113] = 0.0;
+    colors[111] = 0.0; colors[112] = 0.0; colors[113] = 1.0;
     //12
     vertices[114] = 0; vertices[115] = 0; vertices[116] = -1;
-    colors[114] = 1.0; colors[115] = 0.0; colors[116] = 1.0;
+    colors[114] = 0.0; colors[115] = 0.0; colors[116] = 1.0;
 
     
 
@@ -264,284 +264,288 @@ unsigned int createMyModel(void)
     float *colors = new float[250]; // Colors for our vertices
     //A
     vertices[0] = 0; vertices[1] = 0; vertices[2] = 2;
-    colors[0] = 1.0; colors[1] = 0.0; colors[2] = 0.0;
+    colors[0] = 0.0; colors[1] = 0.0; colors[2] = 1.0;
     //B
     vertices[3] = 0; vertices[4] = 1; vertices[5] = 2;
-    colors[3] = 1.0; colors[4] = 1.0; colors[5] = 0.0;
+    colors[3] = 0.0; colors[4] = 0.0; colors[5] = 1.0;
     //C
     vertices[6] = 1; vertices[7] = 0; vertices[8] = 2;
-    colors[6] = 1.0; colors[7] = 0.0; colors[8] = 1.0;
+    colors[6] = 0.0; colors[7] = 0.0; colors[8] = 1.0;
     
     //B
     vertices[9] = 0; vertices[10] = 1; vertices[11] = 2;
-    colors[9] = 1.0; colors[10] = 0.0; colors[11] = 0.0;
+    colors[9] = 0.0; colors[10] = 0.0; colors[11] = 1.0;
     //C
     vertices[12] = 1; vertices[13] = 0; vertices[14] = 2;
-    colors[12] = 0.0; colors[13] = 1.0; colors[14] = 0.0;
+    colors[12] = 0.0; colors[13] = 0.0; colors[14] = 1.0;
     //D
     vertices[15] = 1; vertices[16] = 1; vertices[17] = 2;
     colors[15] = 0.0; colors[16] = 0.0; colors[17] = 1.0;
     
     //C
     vertices[18] = 1; vertices[19] = 0; vertices[20] = 2;
-    colors[18] = 1.0; colors[19] = 1.0; colors[20] = 1.0;
+    colors[18] = 0.0; colors[19] = 0.0; colors[20] = 1.0;
     //D
     vertices[21] = 1; vertices[22] = 1; vertices[23] = 2;
-    colors[21] = 1.0; colors[22] = 1.0; colors[23] = 0.0;
+    colors[21] = 0.0; colors[22] = 0.0; colors[23] = 1.0;
     //E
     vertices[24] = 1; vertices[25] = 1; vertices[26] = 0;
-    colors[24] = 0.0; colors[25] = 1.0; colors[26] = 0.0;
+    colors[24] = 0.0; colors[25] = 0.0; colors[26] = 1.0;
     
     //C
     vertices[27] = 1; vertices[28] = 0; vertices[29] = 2;
-    colors[27] = 0.0; colors[28] = 1.0; colors[29] = 0.0;
+    colors[27] = 0.0; colors[28] = 0.0; colors[29] = 1.0;
     //K
     vertices[30] = 1; vertices[31] = 0; vertices[32] = 0;
-    colors[30] = 1.0; colors[31] = 1.0; colors[32] = 1.0;
+    colors[30] = 0.0; colors[31] = 0.0; colors[32] = 1.0;
     //E
     vertices[33] = 1; vertices[34] = 1; vertices[35] = 0;
-    colors[33] = 0.0; colors[34] = 1.0; colors[35] = 0.0;
+    colors[33] = 0.0; colors[34] = 0.0; colors[35] = 1.0;
     
     //B
     vertices[36] = 0; vertices[37] = 1; vertices[38] = 2;
-    colors[36] = 1.0; colors[37] = 1.0; colors[38] = 0.0;
+    colors[36] = 0.0; colors[37] = 0.0; colors[38] = 1.0;
     //D
     vertices[39] = 1; vertices[40] = 1; vertices[41] = 2;
-    colors[39] = 0.0; colors[40] = 1.0; colors[42] = 1.0;
+    colors[39] = 0.0; colors[40] = 0.0; colors[42] = 1.0;
     //E
     vertices[42] = 1; vertices[43] = 1; vertices[44] = 0;
-    colors[42] = 1.0; colors[43] = 1.0; colors[44] = 1.0;
+    colors[42] = 0.0; colors[43] = 0.0; colors[44] = 1.0;
     
     //B
     vertices[45] = 0; vertices[46] = 1; vertices[47] = 2;
-    colors[45] = 1.0; colors[46] = 1.0; colors[47] = 0.0;
+    colors[45] = 0.0; colors[46] = 0.0; colors[47] = 1.0;
     //E
     vertices[48] = 1; vertices[49] = 1; vertices[50] = 0;
-    colors[48] = 1.0; colors[49] = 0.0; colors[50] = 1.0;
+    colors[48] = 0.0; colors[49] = 0.0; colors[50] = 1.0;
     //G
     vertices[51] = 0; vertices[52] = 1; vertices[53] = 0;
-    colors[51] = 1.0; colors[52] = 1.0; colors[53] = 1.0;
+    colors[51] = 0.0; colors[52] = 0.0; colors[53] = 1.0;
     
     //B
     vertices[54] = 0; vertices[55] = 1; vertices[56] = 2;
-    colors[54] = 1.0; colors[55] = 1.0; colors[56] = 0.0;
+    colors[54] = 0.0; colors[55] = 0.0; colors[56] = 1.0;
     //G
     vertices[57] = 0; vertices[58] = 1; vertices[59] = 0;
-    colors[57] = 0.0; colors[58] = 1.0; colors[59] = 1.0;
+    colors[57] = 0.0; colors[58] = 0.0; colors[59] = 1.0;
     //A
     vertices[60] = 0; vertices[61] = 0; vertices[62] = 2;
-    colors[60] = 1.0; colors[61] = 0.0; colors[62] = 1.0;
+    colors[60] = 0.0; colors[61] = 0.0; colors[62] = 1.0;
     
     //A
     vertices[63] = 0; vertices[64] = 0; vertices[65] = 2;
-    colors[63] = 0.0; colors[64] = 1.0; colors[65] = 0.0;
+    colors[63] = 0.0; colors[64] = 0.0; colors[65] = 1.0;
     //G
     vertices[66] = 0; vertices[67] = 1; vertices[68] = 0;
-    colors[66] = 1.0; colors[67] = 0.0; colors[68] = 0.0;
+    colors[66] = 0.0; colors[67] = 0.0; colors[68] = 1.0;
     //I
     vertices[69] = 0; vertices[70] = 0; vertices[71] = 0;
-    colors[69] = 0.0; colors[70] = 1.0; colors[71] = 1.0;
+    colors[69] = 0.0; colors[70] = 0.0; colors[71] = 1.0;
     
     
     //A
     vertices[72] = 0; vertices[73] = 0; vertices[74] = 2;
-    colors[72] = 1.0; colors[73] = 1.0; colors[74] = 0.0;
+    colors[72] = 0.0; colors[73] = 0.0; colors[74] = 1.0;
     //I
     vertices[75] = 0; vertices[76] = 0; vertices[77] = 0;
-    colors[75] = 0.0; colors[76] = 1.0; colors[77] = 0.0;
+    colors[75] = 0.0; colors[76] = 0.0; colors[77] = 1.0;
     //C
     vertices[78] = 1; vertices[79] = 0; vertices[80] = 2;
-    colors[78] = 1.0; colors[79] = 1.0; colors[80] = 1.0;
+    colors[78] = 0.0; colors[79] = 0.0; colors[80] = 1.0;
     
     
     //C
     vertices[81] = 1; vertices[82] = 0; vertices[83] = 2;
-    colors[81] = 0.0; colors[82] = 1.0; colors[83] = 0.0;
+    colors[81] = 0.0; colors[82] = 0.0; colors[83] = 1.0;
     //I
     vertices[84] = 0; vertices[85] = 0; vertices[86] = 0;
-    colors[84] = 1.0; colors[85] = 1.0; colors[86] = 0.0;
+    colors[84] = 0.0; colors[85] = 0.0; colors[86] = 1.0;
     //K
     vertices[87] = 1; vertices[88] = 0; vertices[89] = 0;
     colors[87] = 0.0; colors[88] = 0.0; colors[89] = 1.0;
     
     //3
     vertices[90] = 0; vertices[91] = 2; vertices[92] = -1;
-    colors[90] = 0.0; colors[91] = 1.0; colors[92] = 0.0;
+    colors[90] = 0.0; colors[91] = 0.0; colors[92] = 1.0;
     //4
     vertices[93] = 1; vertices[94] = 2; vertices[95] = -1;
-    colors[93] = 0.0; colors[94] = 1.0; colors[95] = 0.0;
+    colors[93] = 0.0; colors[94] = 0.0; colors[95] = 1.0;
     //5
     vertices[96] = 0; vertices[97] = 2; vertices[98] = 0;
-    colors[96] = 0.0; colors[97] = 1.0; colors[98] = 0.0;
+    colors[96] = 0.0; colors[97] = 0.0; colors[98] = 1.0;
     
     
     //O
     vertices[99] = 1; vertices[100] = 2; vertices[101] = 0;
-    colors[99] = 1.0; colors[100] = 0.0; colors[101] = 1.0;
+    colors[99] = 0.0; colors[100] = 0.0; colors[101] = 1.0;
     //S
     vertices[102] = 3; vertices[103] = 1; vertices[104] = -1;
-    colors[102] = 0.0; colors[103] = 1.0; colors[104] = 0.0;
+    colors[102] = 0.0; colors[103] = 0.0; colors[104] = 1.0;
     //P
     vertices[105] = 3; vertices[106] = 1; vertices[107] = 0;
-    colors[105] = 0.0; colors[106] = 1.0; colors[107] = 1.0;
+    colors[105] = 0.0; colors[106] = 0.0; colors[107] = 1.0;
     
     
     //P
     vertices[108] = 3; vertices[109] = 1; vertices[110] = 0;
-    colors[108] = 1.0; colors[109] = 1.0; colors[110] = 0.0;
+    colors[108] = 0.0; colors[109] = 0.0; colors[110] = 1.0;
     //N
     vertices[111] = 3; vertices[112] = 0; vertices[113] = 0;
-    colors[111] = 0.0; colors[112] = 1.0; colors[113] = 0.0;
+    colors[111] = 0.0; colors[112] = 0.0; colors[113] = 1.0;
     //R
     vertices[114] = 3; vertices[115] = 0; vertices[116] = -1;
-    colors[114] = 1.0; colors[115] = 0.0; colors[116] = 1.0;
+    colors[114] = 0.0; colors[115] = 0.0; colors[116] = 1.0;
     
     //W
     vertices[117] = 1; vertices[118] = 2; vertices[119] = -1;
-    colors[117] = 1.0; colors[118] = 1.0; colors[119] = 0.0;
+    colors[117] = 0.0; colors[118] = 0.0; colors[119] = 1.0;
     //S
     vertices[120] = 3; vertices[121] = 1; vertices[122] = -1;
-    colors[120] = 0.0; colors[121] = 1.0; colors[122] = 0.0;
+    colors[120] = 0.0; colors[121] = 0.0; colors[122] = 1.0;
     //R
     vertices[123] = 3; vertices[124] = 0; vertices[125] = -1;
-    colors[123] = 1.0; colors[124] = 0.0; colors[125] = 1.0;
+    colors[123] = 0.0; colors[124] = 0.0; colors[125] = 1.0;
     
     //W
     vertices[126] = 1; vertices[127] = 2; vertices[128] = -1;
-    colors[126] = 1.0; colors[127] = 1.0; colors[128] = 0.0;
+    colors[126] = 0.0; colors[127] = 0.0; colors[128] = 1.0;
     //1
     vertices[129] = 0; vertices[130] = 0; vertices[131] = -1;
-    colors[129] = 0.0; colors[130] = 1.0; colors[131] = 0.0;
+    colors[129] = 0.0; colors[130] = 0.0; colors[131] = 1.0;
     //R
     vertices[132] = 3; vertices[133] = 0; vertices[134] = -1;
-    colors[132] = 1.0; colors[133] = 0.0; colors[134] = 1.0;
+    colors[132] = 0.0; colors[133] = 0.0; colors[134] = 1.0;
     
     //W
     vertices[135] = 1; vertices[136] = 2; vertices[137] = -1;
-    colors[135] = 1.0; colors[136] = 1.0; colors[137] = 0.0;
+    colors[135] = 0.0; colors[136] = 0.0; colors[137] = 1.0;
     //1
     vertices[138] = 0; vertices[139] = 0; vertices[140] = -1;
-    colors[138] = 0.0; colors[139] = 1.0; colors[140] = 0.0;
+    colors[138] = 0.0; colors[139] = 0.0; colors[140] = 1.0;
     //3
     vertices[141] = 0; vertices[142] = 2; vertices[143] = -1;
-    colors[141] = 1.0; colors[142] = 0.0; colors[143] = 1.0;
+    colors[141] = 0.0; colors[142] = 0.0; colors[143] = 1.0;
     
     //P
     vertices[144] = 3; vertices[145] = 1; vertices[146] = 0;
-    colors[144] = 1.0; colors[145] = 1.0; colors[146] = 0.0;
+    colors[144] = 0.0; colors[145] = 0.0; colors[146] = 1.0;
     //S
     vertices[147] = 3; vertices[148] = 1; vertices[149] = -1;
-    colors[147] = 0.0; colors[148] = 1.0; colors[149] = 0.0;
+    colors[147] = 0.0; colors[148] = 0.0; colors[149] = 1.0;
     //R
     vertices[150] = 3; vertices[151] = 0; vertices[152] = -1;
-    colors[150] = 1.0; colors[151] = 0.0; colors[152] = 1.0;
+    colors[150] = 0.0; colors[151] = 0.0; colors[152] = 1.0;
     
     
     //W
     vertices[153] = 1; vertices[154] = 2; vertices[155] = -1;
-    colors[153] = 1.0; colors[154] = 1.0; colors[155] = 0.0;
+    colors[153] = 0.0; colors[154] = 0.0; colors[155] = 1.0;
     //S
     vertices[156] = 3; vertices[157] = 1; vertices[158] = -1;
-    colors[156] = 0.0; colors[157] = 1.0; colors[158] = 0.0;
+    colors[156] = 0.0; colors[157] = 0.0; colors[158] = 1.0;
     //O
     vertices[159] = 1; vertices[160] = 2; vertices[161] = 0;
-    colors[159] = 1.0; colors[160] = 0.0; colors[161] = 1.0;
+    colors[159] = 0.0; colors[160] = 0.0; colors[161] = 1.0;
     
     //5
     vertices[162] = 0; vertices[163] = 2; vertices[164] = 0;
-    colors[162] = 1.0; colors[163] = 1.0; colors[164] = 0.0;
+    colors[162] = 0.0; colors[163] = 0.0; colors[164] = 1.0;
     //4
     vertices[165] = 1; vertices[166] = 2; vertices[167] = -1;
-    colors[165] = 0.0; colors[166] = 1.0; colors[167] = 0.0;
+    colors[165] = 0.0; colors[166] = 0.0; colors[167] = 1.0;
     //O
     vertices[168] = 1; vertices[169] = 2; vertices[170] = 0;
-    colors[168] = 1.0; colors[169] = 0.0; colors[170] = 1.0;
+    colors[168] = 0.0; colors[169] = 0.0; colors[170] = 1.0;
     
     //5
     vertices[171] = 0; vertices[172] = 2; vertices[173] = 0;
-    colors[171] = 1.0; colors[172] = 1.0; colors[173] = 0.0;
+    colors[171] = 0.0; colors[172] = 0.0; colors[173] = 1.0;
     //3
     vertices[174] = 0; vertices[175] = 2; vertices[176] = -1;
-    colors[174] = 0.0; colors[175] = 1.0; colors[176] = 0.0;
+    colors[174] = 0.0; colors[175] = 0.0; colors[176] = 1.0;
     //0
     vertices[177] = 0; vertices[178] = 0; vertices[179] = 0;
-    colors[177] = 1.0; colors[178] = 0.0; colors[179] = 1.0;
+    colors[177] = 0.0; colors[178] = 0.0; colors[179] = 1.0;
     
     //3
     vertices[180] = 0; vertices[181] = 2; vertices[182] = -1;
-    colors[180] = 1.0; colors[181] = 0.0; colors[182] = 1.0;
+    colors[180] = 0.0; colors[181] = 0.0; colors[182] = 1.0;
     //0
     vertices[183] = 0; vertices[184] = 0; vertices[185] = 0;
-    colors[183] = 1.0; colors[184] = 1.0; colors[185] = 0.0;
+    colors[183] = 0.0; colors[184] = 0.0; colors[185] = 1.0;
     //1
     vertices[186] = 0; vertices[187] = 0; vertices[188] = -1;
-    colors[186] = 0.0; colors[187] = 1.0; colors[188] = 0.0;
+    colors[186] = 0.0; colors[187] = 0.0; colors[188] = 1.0;
     
     //R
     vertices[189] = 3; vertices[190] = 0; vertices[191] = -1;
-    colors[189] = 1.0; colors[190] = 0.0; colors[191] = 1.0;
+    colors[189] = 0.0; colors[190] = 0.0; colors[191] = 1.0;
     //1
     vertices[192] = 0; vertices[193] = 0; vertices[194] = -1;
-    colors[192] = 1.0; colors[193] = 1.0; colors[194] = 0.0;
+    colors[192] = 0.0; colors[193] = 0.0; colors[194] = 1.0;
     //N
     vertices[195] = 3; vertices[196] = 0; vertices[197] = 0;
-    colors[195] = 0.0; colors[196] = 1.0; colors[197] = 0.0;
+    colors[195] = 0.0; colors[196] = 0.0; colors[197] = 1.0;
     
     //1
     vertices[198] = 0; vertices[199] = 0; vertices[200] = -1;
-    colors[198] = 1.0; colors[199] = 0.0; colors[200] = 1.0;
+    colors[198] = 0.0; colors[199] = 0.0; colors[200] = 1.0;
     //N
     vertices[201] = 3; vertices[202] = 0; vertices[203] = 0;
-    colors[201] = 1.0; colors[202] = 1.0; colors[203] = 0.0;
+    colors[201] = 0.0; colors[202] = 0.0; colors[203] = 1.0;
     //0
     vertices[204] = 0; vertices[205] = 0; vertices[206] = 0;
-    colors[204] = 0.0; colors[205] = 1.0; colors[206] = 0.0;
+    colors[204] = 0.0; colors[205] = 0.0; colors[206] = 1.0;
     
     
     //5
     vertices[207] = 0; vertices[208] = 2; vertices[209] = 0;
-    colors[207] = 1.0; colors[208] = 0.0; colors[209] = 1.0;
+    colors[207] = 0.0; colors[208] = 0.0; colors[209] = 1.0;
     //o
     vertices[210] = 1; vertices[211] = 2; vertices[212] = 0;
-    colors[210] = 1.0; colors[211] = 0.0; colors[212] = 1.0;
+    colors[210] = 0.0; colors[211] = 0.0; colors[212] = 1.0;
     //E
     vertices[213] = 1; vertices[214] = 1; vertices[215] = 0;
-    colors[213] = 1.0; colors[214] = 1.0; colors[215] = 0.0;
+    colors[213] = 0.0; colors[214] = 0.0; colors[215] = 1.0;
     
     
     //5
     vertices[216] = 0; vertices[217] = 2; vertices[218] = 0;
-    colors[216] = 0.0; colors[217] = 1.0; colors[218] = 0.0;
+    colors[216] = 0.0; colors[217] = 0.0; colors[218] = 1.0;
     //E
     vertices[219] = 1; vertices[220] = 1; vertices[221] = 0;
-    colors[219] = 1.0; colors[220] = 0.0; colors[221] = 1.0;
+    colors[219] = 0.0; colors[220] = 0.0; colors[221] = 1.0;
     //G
     vertices[222] = 0; vertices[223] = 1; vertices[224] = 0;
-    colors[222] = 1.0; colors[223] = 1.0; colors[224] = 0.0;
+    colors[222] = 0.0; colors[223] = 0.0; colors[224] = 1.0;
     
     
     //O
     vertices[225] = 1; vertices[226] = 2; vertices[227] = 0;
-    colors[225] = 0.0; colors[226] = 1.0; colors[227] = 0.0;
+    colors[225] = 0.0; colors[226] = 0.0; colors[227] = 1.0;
     //k
     vertices[228] = 1; vertices[229] = 0; vertices[230] = 0;
-    colors[228] = 1.0; colors[229] = 0.0; colors[230] = 1.0;
+    colors[228] = 0.0; colors[229] = 0.0; colors[230] = 1.0;
     //N
     vertices[231] = 3; vertices[232] = 0; vertices[233] = 0;
-    colors[231] = 1.0; colors[232] = 1.0; colors[233] = 0.0;
+    colors[231] = 0.0; colors[232] = 0.0; colors[233] = 1.0;
     
     //O
     vertices[234] = 1; vertices[235] = 2; vertices[236] = 0;
-    colors[234] = 0.0; colors[235] = 1.0; colors[236] = 0.0;
+    colors[234] = 0.0; colors[235] = 0.0; colors[236] = 1.0;
     //P
     vertices[237] = 3; vertices[238] = 1; vertices[239] = 0;
-    colors[237] = 1.0; colors[238] = 0.0; colors[239] = 1.0;
+    colors[237] = 0.0; colors[238] = 0.0; colors[239] = 1.0;
     //N
     vertices[240] = 3; vertices[241] = 0; vertices[242] = 0;
-    colors[240] = 1.0; colors[241] = 0.0; colors[242] = 1.0;
+    colors[240] = 0.0; colors[241] = 0.0; colors[242] = 1.0;
     
     
-    
+    for(int i=0;i<243;i=i+3){
+        colors[i]=0.0;
+        colors[i+1]=0.0;
+        colors[i+2]=1.0;
+    }
     
     
     
