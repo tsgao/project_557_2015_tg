@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18189BB6184E008B8FCA3789FE81921A175EA781+++A09B7C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D61508BF4420F6CE22A6590C9E560DB306644C96+++F66F2EE" : 0,
+    "18189BB6184E008B8FCA3789FE81921A175EA781+++A09B7C0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4BAAF14-09E6-44D1-9F45-46FC29815D83",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D61508BF4420F6CE22A6590C9E560DB306644C96+++F66F2EE" : "yo_557_2015_mt\/",
+    "18189BB6184E008B8FCA3789FE81921A175EA781+++A09B7C0" : "project_557_2015_tg\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HCI557_ass3_p1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "p1\/HCI557_ass3_p1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tsgao\/project_557_2015_tg.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18189BB6184E008B8FCA3789FE81921A175EA781+++A09B7C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tsgao\/yo_557_2015_mt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D61508BF4420F6CE22A6590C9E560DB306644C96+++F66F2EE"
+    }
+  ]
+}

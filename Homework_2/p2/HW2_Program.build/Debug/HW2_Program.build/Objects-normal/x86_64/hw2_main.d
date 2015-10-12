@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/hw2_main.cpp \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_2/p2/hw2_main.cpp \
   /usr/local/include/GL/glew.h /usr/local/include/glm/glm.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/fwd.hpp \
@@ -79,5 +79,5 @@ dependencies: \
   /usr/local/include/glm/gtc/constants.inl \
   /usr/local/include/glm/gtc/matrix_transform.inl \
   /usr/local/include/GLFW/glfw3.h \
-  /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/controls.h \
-  /Users/pro/Desktop/Fall2015/COMS557/HCI-557-CG/assignments/02_Programming_and_3D_Modeling/HCI557Common.h
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_2/p2/controls.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_2/p2/HCI557Common.h

@@ -1,0 +1,3 @@
+/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/CMakeFiles/HCI557_ass3_p1.dir
+/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/CMakeFiles/ALL_BUILD.dir
+/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/CMakeFiles/ZERO_CHECK.dir
