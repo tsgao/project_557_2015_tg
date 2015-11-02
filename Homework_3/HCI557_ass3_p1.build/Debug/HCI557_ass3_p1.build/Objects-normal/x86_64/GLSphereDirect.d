@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/GLSphereDirect.cpp \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/GLSphereDirect.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/GLSphereDirect.cpp \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/GLSphereDirect.h \
   /usr/local/include/GL/glew.h /usr/local/include/glm/glm.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/fwd.hpp \
@@ -79,8 +79,8 @@ dependencies: \
   /usr/local/include/glm/gtc/../gtc/constants.hpp \
   /usr/local/include/glm/gtc/constants.inl \
   /usr/local/include/glm/gtc/matrix_transform.inl \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/../gl_common/GLObject.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/../gl_common/GLAppearance.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/../gl_common/GLSphere.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/../gl_common/Shaders.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/p1/../gl_common/HCI557Datatypes.h
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/../gl_common/GLObject.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/../gl_common/GLAppearance.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/../gl_common/GLSphere.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/../gl_common/Shaders.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/Homework_3/../gl_common/HCI557Datatypes.h
