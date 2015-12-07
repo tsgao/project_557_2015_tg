@@ -1,0 +1,3 @@
+/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeFiles/ALL_BUILD.dir
+/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeFiles/HCI557_ObjLoader.dir
+/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeFiles/ZERO_CHECK.dir
