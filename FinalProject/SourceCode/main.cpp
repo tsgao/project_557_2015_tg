@@ -44,12 +44,31 @@ GLuint program;
 
 /* A trackball to move and rotate the camera view */
 extern Trackball trackball;
+bool flag = true;
 
-
+void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+    bool move = false;
+    
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+    {
+        glfwSetWindowShouldClose(window, GL_TRUE);
+    }
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    // Translation
+    if( (key == 87 && action == GLFW_REPEAT) || (key == 87 && action == GLFW_PRESS) ) // key w
+    {
+        flag = true;
+    }
+    else if((key == 83 && action == GLFW_REPEAT) || (key == 83 && action == GLFW_PRESS)) // key s
+    {
+        flag = false;
+    }
+}
 
 int main(int argc, const char * argv[])
 {
-
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //// Init glfw, create a window, and init glew
@@ -109,7 +128,7 @@ int main(int argc, const char * argv[])
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-
+    glfwSetKeyCallback(window, keyboard_callback);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //// Main render loop
@@ -125,9 +144,6 @@ int main(int argc, const char * argv[])
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //// This renders the objects
-
-        // Set the trackball locatiom
-        SetTrackballLocation(GetCurrentCameraMatrix(), GetCurrentCameraTranslation());
 
         // draw the objects
         cs->draw();
@@ -165,6 +181,12 @@ int main(int argc, const char * argv[])
         
         for(int i = 0;i < game->get_chess_pieces().size(); i++){
             game->get_chess_pieces()[i]->getApperance().updateTextures();
+        }
+        
+        if(flag){
+            SetViewAsLookAt(glm::vec3(20.0f, 50.0f, -20.0f), glm::vec3(20.0f, 0.0f, 20.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+        }else{
+            SetViewAsLookAt(glm::vec3(20.0f, 50.0f, 60.0f), glm::vec3(20.0f, 0.0f, 20.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         }
 
         //// This renders the objects
