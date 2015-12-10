@@ -101,4 +101,7 @@ dependencies: \
   /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/Sphere3D.h \
   /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/GLSphere.h \
   /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/Shaders.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/HCI557Datatypes.h
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/HCI557Datatypes.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib/ChessGame.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib/ChessPiece.h \
+  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib/ObjectIdFactory.h

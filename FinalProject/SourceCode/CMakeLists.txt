@@ -1,4 +1,4 @@
-# Main cmake file 
+# Main cmake file
 # Model Loader Example
 # Rafael Radkowski, rafael@iastate.edu
 # Iowa State University
@@ -30,6 +30,7 @@ include_directories(${GLFW3_INCLUDE_DIR})
 include_directories(${GLM_INCLUDE_DIR})
 include_directories(${OPENGL_INCLUDE_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/../gl_common/)
+include_directories(${CMAKE_SOURCE_DIR}/lib/)
 
 # Add all files to the configuration
 file(GLOB HCI557_ObjLoader_SRC
@@ -56,7 +57,15 @@ file(GLOB HCI557_ObjLoader_SRC
 	../gl_common/camera.cpp
     ../gl_common/GLObjectObj.h
     ../gl_common/GLObjectObj.cpp
-
+    ./lib/ChessPiece.h
+    ./lib/ChessPiece.cpp
+    ./lib/ChessGame.h
+    ./lib/ChessGame.cpp
+    ./lib/ChessGameAppearance.cpp
+    ./lib/PieceFactory.h
+    ./lib/PieceFactory.cpp
+    ./lib/ObjectIdFactory.h
+    ./lib/ObjectIdFactory.cpp
 )
 
 set(HCI557_RES

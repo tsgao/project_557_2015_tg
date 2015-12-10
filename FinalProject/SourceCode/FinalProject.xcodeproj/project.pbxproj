@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		5E9218A26B364C169A5E0310 /* ALL_BUILD */ = {
+		9C4A912E45974AA780DA1EF1 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B201F30643D64B7EAE900AC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = FBBF7BD5CBC94E8EB526FF4C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				318F828DF5F3455E895DDAD5 /* CMake Rules */,
+				B666ECCCCBE4472E9C96792E /* CMake Rules */,
 			);
 			dependencies = (
-				8CD3D3DA4CD54360AB8AA63B /* PBXTargetDependency */,
-				93B3B8C24FAE421D931B0246 /* PBXTargetDependency */,
+				DCF0B5A7F9D64612BD7063A3 /* PBXTargetDependency */,
+				F09E0160B486492FB1CD5F67 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		C6038B6702F746438CDB2CF8 /* ZERO_CHECK */ = {
+		D662C66B534F41E5B97839E4 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 33389ADABFB945C5B503737F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 3C77F7552B0349F09F46E598 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				37A62E5B537143ECAFA8E485 /* CMake Rules */,
+				9AA7C205BB6E4F9FBBE7B7F0 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -34,311 +34,262 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0425F6E6BEDD41EC8F03B701 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.h */ = {isa = PBXBuildFile; fileRef = 717521E38DD24C15B0518A14 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.h */; settings = {COMPILER_FLAGS = ""; }; };
-		13D0151EBE134F6086F77BB6 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.cpp */ = {isa = PBXBuildFile; fileRef = 52A48D24DA264B778253BC2D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		17B17BB897BB49A8A37600A6 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E66D45C857AD4E0B8FB9B8FC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		1B34544CE0A34AD39731A953 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.cpp */ = {isa = PBXBuildFile; fileRef = 333EC475F2644F9DAEC88095 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		226A6B68B2D3440BAEF0FCFE /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.h */ = {isa = PBXBuildFile; fileRef = 83565EDD86C64E66BAB3862F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.h */; settings = {COMPILER_FLAGS = ""; }; };
-		2FD94AB7A3F54C9DA3689C93 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.cpp */ = {isa = PBXBuildFile; fileRef = CF205E4F6363494299686472 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		306AF7D25E8246C3B38253B5 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.cpp */ = {isa = PBXBuildFile; fileRef = 37053412E8254CF3905E6E7F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		35066A9C83684C6BBE14381A /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.h */ = {isa = PBXBuildFile; fileRef = 924F0C5615C44B3BAD3C052F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.h */; settings = {COMPILER_FLAGS = ""; }; };
-		44199B669A1D4E51B8682759 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.h */ = {isa = PBXBuildFile; fileRef = 343045337B134D3F91EEE0EC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4BB1EE1F741445C09ECF7AF1 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.h */ = {isa = PBXBuildFile; fileRef = 49648FBD3DB94615BC540FDB /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.h */; settings = {COMPILER_FLAGS = ""; }; };
-		51BE19AEE8D74692BBAA0CB7 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.cpp */ = {isa = PBXBuildFile; fileRef = 6DC69A553AB64D169B2FA44F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		62BFBF76F1EC4418A0F5FA67 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.h */ = {isa = PBXBuildFile; fileRef = 9F222EAB706748D2BECB219D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.h */; settings = {COMPILER_FLAGS = ""; }; };
-		769CA66C6B174D339E0A1E61 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Datatypes.h */ = {isa = PBXBuildFile; fileRef = 37189109F0EB429B9B6670CE /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Datatypes.h */; settings = {COMPILER_FLAGS = ""; }; };
-		850CE007422B49E99EE6F92A /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.h */ = {isa = PBXBuildFile; fileRef = 0C80C35F21884ED189657022 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.h */; settings = {COMPILER_FLAGS = ""; }; };
-		878C964AA518427B9B5FB6A2 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.cpp */ = {isa = PBXBuildFile; fileRef = 46E852D1F8C6414D8CA8DCD3 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		9A4BE02D2AD8443688FB1160 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.cpp */ = {isa = PBXBuildFile; fileRef = 08A86D3E415245CD8DBBEC4E /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		A0AB1EA155E24CB4A74E3883 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.cpp */ = {isa = PBXBuildFile; fileRef = 4D1DB71BFD874ED78A502A2D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		A961B818C8DB42009A49690B /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.h */ = {isa = PBXBuildFile; fileRef = 0FD6BC379D0A46C39F77B920 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.h */; settings = {COMPILER_FLAGS = ""; }; };
-		B2FABDEC4AF1443995E1FFF0 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.cpp */ = {isa = PBXBuildFile; fileRef = FB01E4DE9D964549A5DC19EC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		C1FF5135222948B9990B8C35 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearanceBase.h */ = {isa = PBXBuildFile; fileRef = B2B7B9E5CC524ADAB3590741 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearanceBase.h */; settings = {COMPILER_FLAGS = ""; }; };
-		CB6965F97A714256BA57C006 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.h */ = {isa = PBXBuildFile; fileRef = 250C3BD735CF4D10B0A6625D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.h */; settings = {COMPILER_FLAGS = ""; }; };
-		DF9DDEAAC60048F6801E75EA /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.h */ = {isa = PBXBuildFile; fileRef = F67803913451457A8D58456F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.h */; settings = {COMPILER_FLAGS = ""; }; };
-		E0CECEDB133B49E195029F8C /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/main.cpp */ = {isa = PBXBuildFile; fileRef = 9004BCDCD01941F1BA2A7BC3 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		E11D0A3D97C64FEFB4E68419 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.cpp */ = {isa = PBXBuildFile; fileRef = 88B3C8B4F16E4470BECDB4CB /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		072749863CF145B7A67F9EA3 /* GLAppearance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F11ED2DBAEE34209952A28D2 /* GLAppearance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1543ED6398E640E0A2890A48 /* ChessPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0C980E1C134494A5B38B03 /* ChessPiece.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15C644E81C193E0C00016FCB /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C644E71C193E0C00016FCB /* Texture.cpp */; };
+		23A8C9D514B246018F4EB012 /* ObjectIdFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5FB13CD32694706A745B927 /* ObjectIdFactory.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		274740518D7F4F3599EBF7EC /* HCI557Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A148D1294AC94BE9A55E7AF5 /* HCI557Common.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		290AB55015A443F8B9BBEA3E /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45CF724E36A452F8902FD72 /* camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		36A4631F15984E26A5DD579F /* Sphere3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09D313777C44F6092D5640D /* Sphere3D.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C222277F23E48048A8A37FD /* CoordSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C65F4A1DF1D423EBDDC22C0 /* CoordSystem.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		46AE68E210504DB6B94078D9 /* GLObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12B5F27FC9A04796A99A04B2 /* GLObject.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		82D95E6657C24C939E659363 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B53A24032F724F32AF687FC9 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A38E39B05DA40A6B5AC7BBA /* ChessGameAppearance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA16E25ADF2D4FC48EBF6CE5 /* ChessGameAppearance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A6130C509B39480B94F4332C /* controls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1865FE4B8214469A98249AF8 /* controls.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B47453334A514DF1BB30379F /* GLObjectObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CA14C6818DC4D4FA5C822CD /* GLObjectObj.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B916E4CC8B8748F9BFF8FF60 /* PieceFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24CF3832BF454CA7868522A0 /* PieceFactory.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E5AD3DF91A034138B9358F28 /* ChessGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FB540E3F6D045839CF09BF8 /* ChessGame.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E6A08F53A54E46C4AD0E1799 /* GLSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A81A1F0FC1C40CFB03171DC /* GLSphere.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F29880EBF1E44E56982AA07D /* Shaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42B8DE16C09449789EBB41A6 /* Shaders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		11836E684676452AB8271C18 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		9C42A3387395443AB700BEC7 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		BB9A349533434F21818F6C59 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		BF70D73243AE4515861B488C = {
-			isa = PBXBuildStyle;
-		};
-		EDC821826410449BBF4C901F /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXContainerItemProxy section */
-		3027B899E0DF483AB477F60E /* PBXContainerItemProxy */ = {
+		0810CEA3F98A458ABF7C71D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 235A08E967F445C8B66F54A8 /* Project object */;
+			containerPortal = 0859C1E2ED2A4C2AB3A58911 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 08CB29CED7484EFCBA315E6B;
-			remoteInfo = HCI557_ObjLoader;
-		};
-		AB1394188F96408B805C9CE8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 235A08E967F445C8B66F54A8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6038B6702F746438CDB2CF8;
+			remoteGlobalIDString = D662C66B534F41E5B97839E4;
 			remoteInfo = ZERO_CHECK;
 		};
-		BC8FB3D356FE4D1DB26458CD /* PBXContainerItemProxy */ = {
+		22363A1C2AF748F4B358D737 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 235A08E967F445C8B66F54A8 /* Project object */;
+			containerPortal = 0859C1E2ED2A4C2AB3A58911 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C6038B6702F746438CDB2CF8;
+			remoteGlobalIDString = E89E9BEDE30C4D52BD6B9DB1;
+			remoteInfo = HCI557_ObjLoader;
+		};
+		306B2C47501C4EEA8BD516E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0859C1E2ED2A4C2AB3A58911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D662C66B534F41E5B97839E4;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A86D3E415245CD8DBBEC4E /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sphere3D.cpp; path = ../gl_common/Sphere3D.cpp; sourceTree = SOURCE_ROOT; };
-		0C80C35F21884ED189657022 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSphere.h; path = ../gl_common/GLSphere.h; sourceTree = SOURCE_ROOT; };
-		0FD6BC379D0A46C39F77B920 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObject.h; path = ../gl_common/GLObject.h; sourceTree = SOURCE_ROOT; };
-		1FA3E7BDD9344ED790FE308B /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		250C3BD735CF4D10B0A6625D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CoordSystem.h; path = ../gl_common/CoordSystem.h; sourceTree = SOURCE_ROOT; };
-		333EC475F2644F9DAEC88095 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CoordSystem.cpp; path = ../gl_common/CoordSystem.cpp; sourceTree = SOURCE_ROOT; };
-		343045337B134D3F91EEE0EC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Sphere3D.h; path = ../gl_common/Sphere3D.h; sourceTree = SOURCE_ROOT; };
-		37053412E8254CF3905E6E7F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controls.cpp; path = ../gl_common/controls.cpp; sourceTree = SOURCE_ROOT; };
-		37189109F0EB429B9B6670CE /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Datatypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Datatypes.h; path = ../gl_common/HCI557Datatypes.h; sourceTree = SOURCE_ROOT; };
-		46E852D1F8C6414D8CA8DCD3 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObject.cpp; path = ../gl_common/GLObject.cpp; sourceTree = SOURCE_ROOT; };
-		49648FBD3DB94615BC540FDB /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = ../gl_common/camera.h; sourceTree = SOURCE_ROOT; };
-		4D1DB71BFD874ED78A502A2D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HCI557Common.cpp; path = ../gl_common/HCI557Common.cpp; sourceTree = SOURCE_ROOT; };
-		52A48D24DA264B778253BC2D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = ../gl_common/camera.cpp; sourceTree = SOURCE_ROOT; };
-		6DC69A553AB64D169B2FA44F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLAppearance.cpp; path = ../gl_common/GLAppearance.cpp; sourceTree = SOURCE_ROOT; };
-		717521E38DD24C15B0518A14 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shaders.h; path = ../gl_common/Shaders.h; sourceTree = SOURCE_ROOT; };
-		83565EDD86C64E66BAB3862F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = controls.h; path = ../gl_common/controls.h; sourceTree = SOURCE_ROOT; };
-		88B3C8B4F16E4470BECDB4CB /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObjectObj.cpp; path = ../gl_common/GLObjectObj.cpp; sourceTree = SOURCE_ROOT; };
-		9004BCDCD01941F1BA2A7BC3 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
-		924F0C5615C44B3BAD3C052F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObjectObj.h; path = ../gl_common/GLObjectObj.h; sourceTree = SOURCE_ROOT; };
-		948EEBEFDD38454E816DE448 /* HCI557_ObjLoader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HCI557_ObjLoader; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F222EAB706748D2BECB219D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLAppearance.h; path = ../gl_common/GLAppearance.h; sourceTree = SOURCE_ROOT; };
-		B2B7B9E5CC524ADAB3590741 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearanceBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLAppearanceBase.h; path = ../gl_common/GLAppearanceBase.h; sourceTree = SOURCE_ROOT; };
-		CF205E4F6363494299686472 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shaders.cpp; path = ../gl_common/Shaders.cpp; sourceTree = SOURCE_ROOT; };
-		E66D45C857AD4E0B8FB9B8FC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F1BF535EB50C4ADBA7D28261 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F67803913451457A8D58456F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Common.h; path = ../gl_common/HCI557Common.h; sourceTree = SOURCE_ROOT; };
-		FB01E4DE9D964549A5DC19EC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSphere.cpp; path = ../gl_common/GLSphere.cpp; sourceTree = SOURCE_ROOT; };
+		0CA14C6818DC4D4FA5C822CD /* GLObjectObj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObjectObj.cpp; path = ../gl_common/GLObjectObj.cpp; sourceTree = SOURCE_ROOT; };
+		12B5F27FC9A04796A99A04B2 /* GLObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObject.cpp; path = ../gl_common/GLObject.cpp; sourceTree = SOURCE_ROOT; };
+		13E5F02A1D7B4591AE55769B /* Sphere3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Sphere3D.h; path = ../gl_common/Sphere3D.h; sourceTree = SOURCE_ROOT; };
+		15C644E61C193DFB00016FCB /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		15C644E71C193E0C00016FCB /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		178150990E7E4222814917D9 /* GLSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSphere.h; path = ../gl_common/GLSphere.h; sourceTree = SOURCE_ROOT; };
+		1865FE4B8214469A98249AF8 /* controls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controls.cpp; path = ../gl_common/controls.cpp; sourceTree = SOURCE_ROOT; };
+		24CF3832BF454CA7868522A0 /* PieceFactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PieceFactory.cpp; path = lib/PieceFactory.cpp; sourceTree = SOURCE_ROOT; };
+		25F482B0DBBC48AC9AA65AEC /* HCI557_ObjLoader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HCI557_ObjLoader; sourceTree = BUILT_PRODUCTS_DIR; };
+		273FEC4FE3794D85BC531E87 /* Shaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shaders.h; path = ../gl_common/Shaders.h; sourceTree = SOURCE_ROOT; };
+		28360E10C9B34DCE95B154BF /* ChessGame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ChessGame.h; path = lib/ChessGame.h; sourceTree = SOURCE_ROOT; };
+		2BBFEB51D73C4689A6B936EA /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = ../gl_common/camera.h; sourceTree = SOURCE_ROOT; };
+		42B8DE16C09449789EBB41A6 /* Shaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shaders.cpp; path = ../gl_common/Shaders.cpp; sourceTree = SOURCE_ROOT; };
+		4CD2555CE2944056A87F8BEB /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5356FA93650E4594959C318F /* GLAppearanceBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLAppearanceBase.h; path = ../gl_common/GLAppearanceBase.h; sourceTree = SOURCE_ROOT; };
+		56CDEBE418F14435A5C067B5 /* HCI557Common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Common.h; path = ../gl_common/HCI557Common.h; sourceTree = SOURCE_ROOT; };
+		57C7F5C6C26045FCA86FB563 /* controls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = controls.h; path = ../gl_common/controls.h; sourceTree = SOURCE_ROOT; };
+		6B0C980E1C134494A5B38B03 /* ChessPiece.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChessPiece.cpp; path = lib/ChessPiece.cpp; sourceTree = SOURCE_ROOT; };
+		7443EAEC3DDB4A7297C17E84 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7A81A1F0FC1C40CFB03171DC /* GLSphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSphere.cpp; path = ../gl_common/GLSphere.cpp; sourceTree = SOURCE_ROOT; };
+		7A883EFAA878456AA2C35416 /* GLAppearance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLAppearance.h; path = ../gl_common/GLAppearance.h; sourceTree = SOURCE_ROOT; };
+		7C65F4A1DF1D423EBDDC22C0 /* CoordSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CoordSystem.cpp; path = ../gl_common/CoordSystem.cpp; sourceTree = SOURCE_ROOT; };
+		9FB540E3F6D045839CF09BF8 /* ChessGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChessGame.cpp; path = lib/ChessGame.cpp; sourceTree = SOURCE_ROOT; };
+		A148D1294AC94BE9A55E7AF5 /* HCI557Common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HCI557Common.cpp; path = ../gl_common/HCI557Common.cpp; sourceTree = SOURCE_ROOT; };
+		B53A24032F724F32AF687FC9 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		C02035D1A22348B19E6FED1F /* ObjectIdFactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjectIdFactory.h; path = lib/ObjectIdFactory.h; sourceTree = SOURCE_ROOT; };
+		C45CF724E36A452F8902FD72 /* camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = ../gl_common/camera.cpp; sourceTree = SOURCE_ROOT; };
+		CB827F4213D24657A27C5703 /* CoordSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CoordSystem.h; path = ../gl_common/CoordSystem.h; sourceTree = SOURCE_ROOT; };
+		D5FB13CD32694706A745B927 /* ObjectIdFactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectIdFactory.cpp; path = lib/ObjectIdFactory.cpp; sourceTree = SOURCE_ROOT; };
+		D9A6421B31EE4CE8915B45DA /* GLObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObject.h; path = ../gl_common/GLObject.h; sourceTree = SOURCE_ROOT; };
+		E5E2E99C61F74C34ADB75BAC /* ChessPiece.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ChessPiece.h; path = lib/ChessPiece.h; sourceTree = SOURCE_ROOT; };
+		F09D313777C44F6092D5640D /* Sphere3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sphere3D.cpp; path = ../gl_common/Sphere3D.cpp; sourceTree = SOURCE_ROOT; };
+		F11ED2DBAEE34209952A28D2 /* GLAppearance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLAppearance.cpp; path = ../gl_common/GLAppearance.cpp; sourceTree = SOURCE_ROOT; };
+		F395F3C4C20948F086992E5F /* HCI557Datatypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Datatypes.h; path = ../gl_common/HCI557Datatypes.h; sourceTree = SOURCE_ROOT; };
+		F9C3E6150C174527A313D1C6 /* GLObjectObj.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObjectObj.h; path = ../gl_common/GLObjectObj.h; sourceTree = SOURCE_ROOT; };
+		FA16E25ADF2D4FC48EBF6CE5 /* ChessGameAppearance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChessGameAppearance.cpp; path = lib/ChessGameAppearance.cpp; sourceTree = SOURCE_ROOT; };
+		FF6419056D594DA1A1B9AE0F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FFE8604C42D54388AAF84127 /* PieceFactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PieceFactory.h; path = lib/PieceFactory.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0A8599E38FB346F2B71D65B6 /* CMake Rules */ = {
+		18830C9799204569A1520B64 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		330A061BACBB47F0B11C71DB /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				250C3BD735CF4D10B0A6625D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.h */,
-				9F222EAB706748D2BECB219D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.h */,
-				B2B7B9E5CC524ADAB3590741 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearanceBase.h */,
-				0FD6BC379D0A46C39F77B920 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.h */,
-				924F0C5615C44B3BAD3C052F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.h */,
-				0C80C35F21884ED189657022 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.h */,
-				F67803913451457A8D58456F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.h */,
-				37189109F0EB429B9B6670CE /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Datatypes.h */,
-				717521E38DD24C15B0518A14 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.h */,
-				343045337B134D3F91EEE0EC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.h */,
-				49648FBD3DB94615BC540FDB /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.h */,
-				83565EDD86C64E66BAB3862F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		3C010B09BB994E74A4867993 /* HCI557_ObjLoader */ = {
-			isa = PBXGroup;
-			children = (
-				7945EF9DED334AD88F8726A9 /* Source Files */,
-				330A061BACBB47F0B11C71DB /* Header Files */,
-				E66D45C857AD4E0B8FB9B8FC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */,
-			);
-			name = HCI557_ObjLoader;
-			sourceTree = "<group>";
-		};
-		4058F0B637DF4E2F90B7A3E2 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		554AD2AE963B4F38A69FFE4F /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				7B51DE514603409F8496E041 /* ALL_BUILD */,
-				3C010B09BB994E74A4867993 /* HCI557_ObjLoader */,
-				C018E8BE719B4F8CBF937BA1 /* ZERO_CHECK */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		63CE8BC301C748EDB45A341D = {
-			isa = PBXGroup;
-			children = (
-				554AD2AE963B4F38A69FFE4F /* Sources */,
-				9BDF529947724BB59CC65AFE /* Resources */,
-				F633F158A84B4DC88C8A611C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		7945EF9DED334AD88F8726A9 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				9004BCDCD01941F1BA2A7BC3 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/main.cpp */,
-				333EC475F2644F9DAEC88095 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.cpp */,
-				6DC69A553AB64D169B2FA44F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.cpp */,
-				46E852D1F8C6414D8CA8DCD3 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.cpp */,
-				88B3C8B4F16E4470BECDB4CB /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.cpp */,
-				FB01E4DE9D964549A5DC19EC /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.cpp */,
-				4D1DB71BFD874ED78A502A2D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.cpp */,
-				CF205E4F6363494299686472 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.cpp */,
-				08A86D3E415245CD8DBBEC4E /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.cpp */,
-				52A48D24DA264B778253BC2D /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.cpp */,
-				37053412E8254CF3905E6E7F /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		7B51DE514603409F8496E041 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				0A8599E38FB346F2B71D65B6 /* CMake Rules */,
-				1FA3E7BDD9344ED790FE308B /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */,
+				A994FF1F5E5947ECB9CE8CCE /* CMake Rules */,
+				FF6419056D594DA1A1B9AE0F /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		9BDF529947724BB59CC65AFE /* Resources */ = {
+		2325B86FD50F4E9AB278EF62 = {
+			isa = PBXGroup;
+			children = (
+				AEAC79D4F6BC472C937D81B7 /* Sources */,
+				92C7B963F7714AAEB24122D4 /* Resources */,
+				A29AD04A2CC1423F8A553330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66BE8A41328B46F5A43AF8D4 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				6DF88894321E4BD4AB6C5215 /* CMake Rules */,
+				7443EAEC3DDB4A7297C17E84 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		6DF88894321E4BD4AB6C5215 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7CBCDE19A49E4708B0973761 /* HCI557_ObjLoader */ = {
+			isa = PBXGroup;
+			children = (
+				AACE4825FC634EBB96C8DDA3 /* Source Files */,
+				9BFEFDD36B9D4B55BD6D90DC /* Header Files */,
+				4CD2555CE2944056A87F8BEB /* CMakeLists.txt */,
+			);
+			name = HCI557_ObjLoader;
+			sourceTree = "<group>";
+		};
+		92C7B963F7714AAEB24122D4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C018E8BE719B4F8CBF937BA1 /* ZERO_CHECK */ = {
+		9BFEFDD36B9D4B55BD6D90DC /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				4058F0B637DF4E2F90B7A3E2 /* CMake Rules */,
-				F1BF535EB50C4ADBA7D28261 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeLists.txt */,
+				28360E10C9B34DCE95B154BF /* ChessGame.h */,
+				E5E2E99C61F74C34ADB75BAC /* ChessPiece.h */,
+				C02035D1A22348B19E6FED1F /* ObjectIdFactory.h */,
+				FFE8604C42D54388AAF84127 /* PieceFactory.h */,
+				CB827F4213D24657A27C5703 /* CoordSystem.h */,
+				7A883EFAA878456AA2C35416 /* GLAppearance.h */,
+				5356FA93650E4594959C318F /* GLAppearanceBase.h */,
+				D9A6421B31EE4CE8915B45DA /* GLObject.h */,
+				F9C3E6150C174527A313D1C6 /* GLObjectObj.h */,
+				178150990E7E4222814917D9 /* GLSphere.h */,
+				56CDEBE418F14435A5C067B5 /* HCI557Common.h */,
+				F395F3C4C20948F086992E5F /* HCI557Datatypes.h */,
+				273FEC4FE3794D85BC531E87 /* Shaders.h */,
+				13E5F02A1D7B4591AE55769B /* Sphere3D.h */,
+				2BBFEB51D73C4689A6B936EA /* camera.h */,
+				57C7F5C6C26045FCA86FB563 /* controls.h */,
+				15C644E61C193DFB00016FCB /* Texture.h */,
 			);
-			name = ZERO_CHECK;
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		F633F158A84B4DC88C8A611C /* Products */ = {
+		A29AD04A2CC1423F8A553330 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				948EEBEFDD38454E816DE448 /* HCI557_ObjLoader */,
+				25F482B0DBBC48AC9AA65AEC /* HCI557_ObjLoader */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A994FF1F5E5947ECB9CE8CCE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AACE4825FC634EBB96C8DDA3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FB540E3F6D045839CF09BF8 /* ChessGame.cpp */,
+				FA16E25ADF2D4FC48EBF6CE5 /* ChessGameAppearance.cpp */,
+				6B0C980E1C134494A5B38B03 /* ChessPiece.cpp */,
+				D5FB13CD32694706A745B927 /* ObjectIdFactory.cpp */,
+				24CF3832BF454CA7868522A0 /* PieceFactory.cpp */,
+				B53A24032F724F32AF687FC9 /* main.cpp */,
+				7C65F4A1DF1D423EBDDC22C0 /* CoordSystem.cpp */,
+				F11ED2DBAEE34209952A28D2 /* GLAppearance.cpp */,
+				12B5F27FC9A04796A99A04B2 /* GLObject.cpp */,
+				0CA14C6818DC4D4FA5C822CD /* GLObjectObj.cpp */,
+				7A81A1F0FC1C40CFB03171DC /* GLSphere.cpp */,
+				A148D1294AC94BE9A55E7AF5 /* HCI557Common.cpp */,
+				42B8DE16C09449789EBB41A6 /* Shaders.cpp */,
+				F09D313777C44F6092D5640D /* Sphere3D.cpp */,
+				C45CF724E36A452F8902FD72 /* camera.cpp */,
+				1865FE4B8214469A98249AF8 /* controls.cpp */,
+				15C644E71C193E0C00016FCB /* Texture.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AEAC79D4F6BC472C937D81B7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				18830C9799204569A1520B64 /* ALL_BUILD */,
+				7CBCDE19A49E4708B0973761 /* HCI557_ObjLoader */,
+				66BE8A41328B46F5A43AF8D4 /* ZERO_CHECK */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08CB29CED7484EFCBA315E6B /* HCI557_ObjLoader */ = {
+		E89E9BEDE30C4D52BD6B9DB1 /* HCI557_ObjLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65BAD51A50C143B3A88A445A /* Build configuration list for PBXNativeTarget "HCI557_ObjLoader" */;
+			buildConfigurationList = 0C9A734C1D3A4BF9AADB78BD /* Build configuration list for PBXNativeTarget "HCI557_ObjLoader" */;
 			buildPhases = (
-				9B8E2E94BD4B445DA4AF2C7F /* Sources */,
+				0AF5D2DD48C74E6FB02CC03B /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CDEDDB36DF564F7E9AEF0D25 /* PBXTargetDependency */,
+				B5B182C5A6C149B88EC55B24 /* PBXTargetDependency */,
 			);
 			name = HCI557_ObjLoader;
 			productName = HCI557_ObjLoader;
-			productReference = 948EEBEFDD38454E816DE448 /* HCI557_ObjLoader */;
+			productReference = 25F482B0DBBC48AC9AA65AEC /* HCI557_ObjLoader */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		235A08E967F445C8B66F54A8 /* Project object */ = {
+		0859C1E2ED2A4C2AB3A58911 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 			};
-			buildConfigurationList = F9367DC36E9B474B955AC8C8 /* Build configuration list for PBXProject "FinalProject" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				BB9A349533434F21818F6C59 /* Debug */,
-				11836E684676452AB8271C18 /* Release */,
-				9C42A3387395443AB700BEC7 /* MinSizeRel */,
-				EDC821826410449BBF4C901F /* RelWithDebInfo */,
-			);
+			buildConfigurationList = 254AB6FE6EEF466C9680508F /* Build configuration list for PBXProject "FinalProject" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
-			mainGroup = 63CE8BC301C748EDB45A341D;
-			projectDirPath = .;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2325B86FD50F4E9AB278EF62;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E9218A26B364C169A5E0310 /* ALL_BUILD */,
-				08CB29CED7484EFCBA315E6B /* HCI557_ObjLoader */,
-				C6038B6702F746438CDB2CF8 /* ZERO_CHECK */,
+				9C4A912E45974AA780DA1EF1 /* ALL_BUILD */,
+				E89E9BEDE30C4D52BD6B9DB1 /* HCI557_ObjLoader */,
+				D662C66B534F41E5B97839E4 /* ZERO_CHECK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		318F828DF5F3455E895DDAD5 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode -f /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		32E9B3D4008C497C986845BD = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		37A62E5B537143ECAFA8E485 /* CMake Rules */ = {
+		9AA7C205BB6E4F9FBBE7B7F0 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,100 +300,80 @@ exit 0";
 			shellScript = "make -C /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode -f /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		823C8ED17D444EC1B7FD02AA = {
+		B666ECCCCBE4472E9C96792E /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
+			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "make -C /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode -f /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B8E2E94BD4B445DA4AF2C7F /* Sources */ = {
+		0AF5D2DD48C74E6FB02CC03B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0CECEDB133B49E195029F8C /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/main.cpp */,
-				1B34544CE0A34AD39731A953 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/CoordSystem.cpp */,
-				51BE19AEE8D74692BBAA0CB7 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLAppearance.cpp */,
-				878C964AA518427B9B5FB6A2 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObject.cpp */,
-				E11D0A3D97C64FEFB4E68419 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLObjectObj.cpp */,
-				B2FABDEC4AF1443995E1FFF0 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/GLSphere.cpp */,
-				A0AB1EA155E24CB4A74E3883 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/HCI557Common.cpp */,
-				2FD94AB7A3F54C9DA3689C93 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Shaders.cpp */,
-				9A4BE02D2AD8443688FB1160 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/Sphere3D.cpp */,
-				13D0151EBE134F6086F77BB6 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.cpp */,
-				306AF7D25E8246C3B38253B5 /* /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.cpp */,
+				E5AD3DF91A034138B9358F28 /* ChessGame.cpp in Sources */,
+				8A38E39B05DA40A6B5AC7BBA /* ChessGameAppearance.cpp in Sources */,
+				1543ED6398E640E0A2890A48 /* ChessPiece.cpp in Sources */,
+				23A8C9D514B246018F4EB012 /* ObjectIdFactory.cpp in Sources */,
+				B916E4CC8B8748F9BFF8FF60 /* PieceFactory.cpp in Sources */,
+				82D95E6657C24C939E659363 /* main.cpp in Sources */,
+				3C222277F23E48048A8A37FD /* CoordSystem.cpp in Sources */,
+				15C644E81C193E0C00016FCB /* Texture.cpp in Sources */,
+				072749863CF145B7A67F9EA3 /* GLAppearance.cpp in Sources */,
+				46AE68E210504DB6B94078D9 /* GLObject.cpp in Sources */,
+				B47453334A514DF1BB30379F /* GLObjectObj.cpp in Sources */,
+				E6A08F53A54E46C4AD0E1799 /* GLSphere.cpp in Sources */,
+				274740518D7F4F3599EBF7EC /* HCI557Common.cpp in Sources */,
+				F29880EBF1E44E56982AA07D /* Shaders.cpp in Sources */,
+				36A4631F15984E26A5DD579F /* Sphere3D.cpp in Sources */,
+				290AB55015A443F8B9BBEA3E /* camera.cpp in Sources */,
+				A6130C509B39480B94F4332C /* controls.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8CD3D3DA4CD54360AB8AA63B /* PBXTargetDependency */ = {
+		B5B182C5A6C149B88EC55B24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08CB29CED7484EFCBA315E6B /* HCI557_ObjLoader */;
-			targetProxy = 3027B899E0DF483AB477F60E /* PBXContainerItemProxy */;
+			target = D662C66B534F41E5B97839E4 /* ZERO_CHECK */;
+			targetProxy = 306B2C47501C4EEA8BD516E7 /* PBXContainerItemProxy */;
 		};
-		93B3B8C24FAE421D931B0246 /* PBXTargetDependency */ = {
+		DCF0B5A7F9D64612BD7063A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6038B6702F746438CDB2CF8 /* ZERO_CHECK */;
-			targetProxy = AB1394188F96408B805C9CE8 /* PBXContainerItemProxy */;
+			target = E89E9BEDE30C4D52BD6B9DB1 /* HCI557_ObjLoader */;
+			targetProxy = 22363A1C2AF748F4B358D737 /* PBXContainerItemProxy */;
 		};
-		CDEDDB36DF564F7E9AEF0D25 /* PBXTargetDependency */ = {
+		F09E0160B486492FB1CD5F67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6038B6702F746438CDB2CF8 /* ZERO_CHECK */;
-			targetProxy = BC8FB3D356FE4D1DB26458CD /* PBXContainerItemProxy */;
+			target = D662C66B534F41E5B97839E4 /* ZERO_CHECK */;
+			targetProxy = 0810CEA3F98A458ABF7C71D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02CCD65FD33945DEB4A7E572 /* MinSizeRel */ = {
+		1C145E216CF6426C94817A1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = HCI557_ObjLoader;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		0725EB940575457CBA6F5BE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -450,178 +381,253 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
-		0C48C718CE194B0FA581827D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		11C110242D5C49A79783A28D /* RelWithDebInfo */ = {
+		29E8B137FBA34F4A86CBD977 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = HCI557_ObjLoader;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		2CBF4BC67A584DC7AACBA56D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/build;
-			};
-			name = MinSizeRel;
-		};
-		5BED51D53E47424596916806 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		5D09F9239F9B4B2298C78C36 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		83EF9A3CA94848B7BD25C088 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		84F522A907354E5CA213E1D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		86F24EAC711E4F77AC1A1B30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/build;
-			};
-			name = Debug;
-		};
-		89A7C7B1DF374477B4E0512A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = HCI557_ObjLoader;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
-		9B972546F1F74B45A23AC2D0 /* Release */ = {
+		3A239E9FEFA04FF593D54073 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HCI557_ObjLoader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		3B74FDE47B8E4CC9A187A023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		4C88A8E320044A54B77A419A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		5FBF333CF03E4811899AEF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HCI557_ObjLoader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		61FB653E15EB485FA3864476 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		65924C7C5F48418F8CA4F714 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -630,17 +636,70 @@ exit 0";
 			};
 			name = Release;
 		};
-		D76700BD5DE64A458C0148A5 /* MinSizeRel */ = {
+		728C56D9D9DE4F9AA48701B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/build;
+			};
+			name = Debug;
+		};
+		7E9CCF7692FC456F8F857FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C8AF69E18E2F498F81259496 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CB68E444813C4D14BA74CFD5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -648,21 +707,39 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		CDC4F765BE8A40FEA030A1EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/build;
 			};
 			name = MinSizeRel;
 		};
-		DF4329C9EF9C423E9DFAB61B /* MinSizeRel */ = {
+		E06A516F507E47D78B2A7D44 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -670,106 +747,142 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
-		F4207B25BD3D4EF594CF039C /* Debug */ = {
+		EF5B46FFF092426EA8D93B90 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		FED012A963C24BB5A926B9C1 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common,
+					/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw3.dylib -framework AGL -framework OpenGL -framework AGL -framework OpenGL";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = HCI557_ObjLoader;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		FEC960514789455D8EF8F951 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks, );
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include, /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common, );
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33389ADABFB945C5B503737F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0C9A734C1D3A4BF9AADB78BD /* Build configuration list for PBXNativeTarget "HCI557_ObjLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84F522A907354E5CA213E1D2 /* Debug */,
-				0725EB940575457CBA6F5BE9 /* Release */,
-				D76700BD5DE64A458C0148A5 /* MinSizeRel */,
-				0C48C718CE194B0FA581827D /* RelWithDebInfo */,
+				5FBF333CF03E4811899AEF38 /* Debug */,
+				29E8B137FBA34F4A86CBD977 /* Release */,
+				3A239E9FEFA04FF593D54073 /* MinSizeRel */,
+				FED012A963C24BB5A926B9C1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		65BAD51A50C143B3A88A445A /* Build configuration list for PBXNativeTarget "HCI557_ObjLoader" */ = {
+		254AB6FE6EEF466C9680508F /* Build configuration list for PBXProject "FinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4207B25BD3D4EF594CF039C /* Debug */,
-				89A7C7B1DF374477B4E0512A /* Release */,
-				02CCD65FD33945DEB4A7E572 /* MinSizeRel */,
-				11C110242D5C49A79783A28D /* RelWithDebInfo */,
+				728C56D9D9DE4F9AA48701B1 /* Debug */,
+				65924C7C5F48418F8CA4F714 /* Release */,
+				CDC4F765BE8A40FEA030A1EF /* MinSizeRel */,
+				C8AF69E18E2F498F81259496 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B201F30643D64B7EAE900AC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		3C77F7552B0349F09F46E598 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83EF9A3CA94848B7BD25C088 /* Debug */,
-				5BED51D53E47424596916806 /* Release */,
-				DF4329C9EF9C423E9DFAB61B /* MinSizeRel */,
-				FEC960514789455D8EF8F951 /* RelWithDebInfo */,
+				3B74FDE47B8E4CC9A187A023 /* Debug */,
+				1C145E216CF6426C94817A1F /* Release */,
+				EF5B46FFF092426EA8D93B90 /* MinSizeRel */,
+				CB68E444813C4D14BA74CFD5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F9367DC36E9B474B955AC8C8 /* Build configuration list for PBXProject "FinalProject" */ = {
+		FBBF7BD5CBC94E8EB526FF4C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86F24EAC711E4F77AC1A1B30 /* Debug */,
-				9B972546F1F74B45A23AC2D0 /* Release */,
-				2CBF4BC67A584DC7AACBA56D /* MinSizeRel */,
-				5D09F9239F9B4B2298C78C36 /* RelWithDebInfo */,
+				7E9CCF7692FC456F8F857FDA /* Debug */,
+				4C88A8E320044A54B77A419A /* Release */,
+				E06A516F507E47D78B2A7D44 /* MinSizeRel */,
+				61FB653E15EB485FA3864476 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 235A08E967F445C8B66F54A8 /* Project object */;
+	rootObject = 0859C1E2ED2A4C2AB3A58911 /* Project object */;
 }
