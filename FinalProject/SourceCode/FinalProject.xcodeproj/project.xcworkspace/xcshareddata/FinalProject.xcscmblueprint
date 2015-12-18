@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18189BB6184E008B8FCA3789FE81921A175EA781",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D61508BF4420F6CE22A6590C9E560DB306644C96" : 0,
+    "18189BB6184E008B8FCA3789FE81921A175EA781" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9924C84-5769-446A-87DF-8FA3422E99A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D61508BF4420F6CE22A6590C9E560DB306644C96" : "yo_557_2015_mt\/",
+    "18189BB6184E008B8FCA3789FE81921A175EA781" : "project_557_2015_tg\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FinalProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FinalProject\/SourceCode\/FinalProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tsgao\/project_557_2015_tg.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18189BB6184E008B8FCA3789FE81921A175EA781"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/greenwind89\/yo_557_2015_mt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D61508BF4420F6CE22A6590C9E560DB306644C96"
+    }
+  ]
+}
