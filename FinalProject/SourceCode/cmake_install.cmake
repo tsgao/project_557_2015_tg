@@ -1,4 +1,4 @@
-# Install script for directory: /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode
+# Install script for directory: /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

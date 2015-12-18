@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E89E9BEDE30C4D52BD6B9DB1"
+               BlueprintIdentifier = "6D30F2E2A43B4B75819A0944"
                BuildableName = "HCI557_ObjLoader"
                BlueprintName = "HCI557_ObjLoader"
                ReferencedContainer = "container:FinalProject.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E89E9BEDE30C4D52BD6B9DB1"
+            BlueprintIdentifier = "6D30F2E2A43B4B75819A0944"
             BuildableName = "HCI557_ObjLoader"
             BlueprintName = "HCI557_ObjLoader"
             ReferencedContainer = "container:FinalProject.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E89E9BEDE30C4D52BD6B9DB1"
+            BlueprintIdentifier = "6D30F2E2A43B4B75819A0944"
             BuildableName = "HCI557_ObjLoader"
             BlueprintName = "HCI557_ObjLoader"
             ReferencedContainer = "container:FinalProject.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E89E9BEDE30C4D52BD6B9DB1"
+            BlueprintIdentifier = "6D30F2E2A43B4B75819A0944"
             BuildableName = "HCI557_ObjLoader"
             BlueprintName = "HCI557_ObjLoader"
             ReferencedContainer = "container:FinalProject.xcodeproj">

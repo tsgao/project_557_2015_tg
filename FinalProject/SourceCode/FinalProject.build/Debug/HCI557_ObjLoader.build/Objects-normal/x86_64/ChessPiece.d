@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib/ChessPiece.cpp \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib/ChessPiece.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/lib/ChessPiece.cpp \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/lib/ChessPiece.h \
   /usr/local/include/GL/glew.h /usr/local/include/glm/glm.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/fwd.hpp \
@@ -79,11 +79,14 @@ dependencies: \
   /usr/local/include/glm/gtc/../gtc/constants.hpp \
   /usr/local/include/glm/gtc/constants.inl \
   /usr/local/include/glm/gtc/matrix_transform.inl \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/GLObject.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/GLAppearance.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/GLAppearanceBase.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/Texture.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/lib/ObjectIdFactory.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/GLSphere.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/Shaders.h \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/HCI557Datatypes.h
+  /usr/local/include/glm/gtx/transform.hpp \
+  /usr/local/include/glm/gtx/transform.inl \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/GLObjectObj.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/GLObject.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/GLAppearance.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/GLAppearanceBase.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/Texture.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/lib/ObjectIdFactory.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/GLSphere.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/Shaders.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/HCI557Datatypes.h

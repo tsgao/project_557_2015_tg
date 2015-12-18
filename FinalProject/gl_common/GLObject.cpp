@@ -127,10 +127,6 @@ void GLObject::setApperance(GLAppearance& apperance)
     _apperance = apperance;
 }
 
-GLAppearance GLObject::getApperance(){
-    return _apperance;
-}
-
 
 /*!
 Returns the shader program of this object

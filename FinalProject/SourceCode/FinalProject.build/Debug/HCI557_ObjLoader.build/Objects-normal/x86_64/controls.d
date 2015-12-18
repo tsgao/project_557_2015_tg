@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/controls.cpp \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/gl_common/controls.cpp \
   /usr/local/include/GLFW/glfw3.h /usr/local/include/glm/glm.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/fwd.hpp \
@@ -78,7 +78,7 @@ dependencies: \
   /usr/local/include/glm/gtc/../gtc/constants.hpp \
   /usr/local/include/glm/gtc/constants.inl \
   /usr/local/include/glm/gtc/matrix_transform.inl \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/controls.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/controls.h \
   /usr/local/include/glm/gtc/quaternion.hpp \
   /usr/local/include/glm/gtc/quaternion.inl \
   /usr/local/include/glm/gtc/type_ptr.hpp \

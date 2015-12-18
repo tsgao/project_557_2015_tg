@@ -3,10 +3,12 @@
 #include "ChessPiece.h"
 
 #include <algorithm>
+#define PC_SCALE	4.5f
+#define PC_OFFSET_X	0.5f
+#define PC_OFFSET_Z 0.5f
 
-
-ChessPiece::ChessPiece(string filename):
-_file_and_path(filename)
+ChessPiece::ChessPiece(string filename, string type):
+_file_and_path(filename), _object_type(type)
 {
     _object_id = ObjectIdFactory::getId();
 
@@ -124,8 +126,6 @@ bool ChessPiece::load_obj(const char* filename, vector<glm::vec3> &vertices, vec
         cerr << "Cannot open " << filename << endl;
         return false;
     }
-
-
 
     vector<glm::vec3> temp_normals;
     vector<glm::vec3> temp_vertices;
@@ -470,3 +470,35 @@ void ChessPiece::updateVertices(float* vertices)
 ObjectId* ChessPiece::getObjectId() {
     return _object_id;
 }
+
+string ChessPiece::getType() {
+    return _object_type;
+}
+
+void ChessPiece::translatePiece(glm::vec3 trans) {
+	glm::mat4 m2 = glm::translate(_modelMatrix, trans);
+	_object_location = glm::vec3(m2[3][0], m2[3][1], m2[3][2]);
+	setMatrix(m2);
+}
+
+void ChessPiece::setPlayer(int player) {
+	_object_player = player;
+}
+
+int ChessPiece::getPlayer() {
+	return _object_player;
+}
+
+void ChessPiece::setLocation(glm::vec3 loc) {
+	_object_location = loc;
+}
+
+void ChessPiece::moveToLocation(glm::vec3 loc){
+    glm::mat4 m2 = glm::translate(loc) * glm::scale(glm::vec3(PC_SCALE, PC_SCALE, PC_SCALE));
+    _object_location = glm::vec3(m2[3][0], m2[3][1], m2[3][2]);
+    setMatrix(m2);
+}
+glm::vec3 ChessPiece::getLocation() {
+	return _object_location;
+}
+

@@ -44,31 +44,55 @@ GLuint program;
 
 /* A trackball to move and rotate the camera view */
 extern Trackball trackball;
-bool flag = true;
+
+// game instance
+ChessGame* game;
+
+bool key_flag = true;
+
+
+
 
 void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
-    bool move = false;
-    
     if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
     {
         glfwSetWindowShouldClose(window, GL_TRUE);
     }
-    
+
     ////////////////////////////////////////////////////////////////////////////////////////////
     // Translation
     if( (key == 87 && action == GLFW_REPEAT) || (key == 87 && action == GLFW_PRESS) ) // key w
     {
-        flag = true;
+        key_flag = true;
     }
     else if((key == 83 && action == GLFW_REPEAT) || (key == 83 && action == GLFW_PRESS)) // key s
     {
-        flag = false;
-    }
+        key_flag = false;
+	}
+	else
+	{
+		game->handleKeyPress(key, action);
+	}
 }
+
+
+void mouse_callback(GLFWwindow* window, int button, int action, int mods)
+{
+    // button: The mouse button that was pressed or released.
+    // action: One of GLFW_PRESS or GLFW_RELEASE.
+    // mods: Bit field describing which modifier keys were held down.
+
+    if(action == GLFW_RELEASE) {
+        game->handleMouseRelease();
+    }
+
+}
+
 
 int main(int argc, const char * argv[])
 {
+
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //// Init glfw, create a window, and init glew
@@ -95,7 +119,7 @@ int main(int argc, const char * argv[])
 
     // GLObjectObj* loadedModel1 = new GLObjectObj("../../data/chess_board_all.obj");
 
-    ChessGame* game = new ChessGame();
+    game = new ChessGame();
 
     game->initPicking();
     // GLObjectObj* loadedModel1 = new GLObjectObj("../../data/chessobj.obj");
@@ -128,14 +152,22 @@ int main(int argc, const char * argv[])
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+    // glfwSetMouseButtonCallback(window, mouse_callback);
     glfwSetKeyCallback(window, keyboard_callback);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //// Main render loop
 
     // This is our render loop. As long as our window remains open (ESC is not pressed), we'll continue to render things.
+    int last_state = -1;
     while(!glfwWindowShouldClose(window))
     {
+
+        int state = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT);
+        if (last_state == GLFW_PRESS && state == GLFW_RELEASE) {
+            game->handleMouseRelease();
+        }
+        last_state = state;
 
         // Clear the entire buffer with our green color (sets the background to be green).
         glClearBufferfv(GL_COLOR , 0, clear_color);
@@ -145,9 +177,11 @@ int main(int argc, const char * argv[])
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //// This renders the objects
 
+        // Set the trackball locatiom
+        // SetTrackballLocation(GetCurrentCameraMatrix(), GetCurrentCameraTranslation());
+
         // draw the objects
         cs->draw();
-
         /////////////////////////////////////////////////////
         // For selection.
         // FIRST, RENDER IN SELECT MODE
@@ -157,7 +191,9 @@ int main(int argc, const char * argv[])
 
         // 2. Set the window with window size 1x1
         // 600 is the size of the frame, make sure you know it.
-        glScissor(GetMouseX(), 600-GetMouseY(), 1, 1);
+		int pxToPt = 2;
+        glScissor(GetMouseX() * pxToPt, (600 - GetMouseY()) * pxToPt, 1, 1);
+
         game->preDrawPicking();
 
 
@@ -169,7 +205,7 @@ int main(int argc, const char * argv[])
         // 5. Disable the scissor test.
         glDisable(GL_SCISSOR_TEST);
         float col[4];
-        glReadPixels(GetMouseX(), 600-GetMouseY(), 1, 1, GL_RGB,GL_FLOAT,&col);
+        glReadPixels(GetMouseX() * pxToPt, (600 - GetMouseY()) * pxToPt, 1, 1, GL_RGB,GL_FLOAT,&col);
 
 
         // cout << col[0] << col[1] <<col[2]<<endl;
@@ -177,17 +213,14 @@ int main(int argc, const char * argv[])
 
 
         game->draw();
-        
-        
-        for(int i = 0;i < game->get_chess_pieces().size(); i++){
-            game->get_chess_pieces()[i]->getApperance().updateTextures();
-        }
-        
-        if(flag){
+
+
+        if(key_flag){
             SetViewAsLookAt(glm::vec3(20.0f, 50.0f, -20.0f), glm::vec3(20.0f, 0.0f, 20.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         }else{
             SetViewAsLookAt(glm::vec3(20.0f, 50.0f, 60.0f), glm::vec3(20.0f, 0.0f, 20.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         }
+
 
         //// This renders the objects
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

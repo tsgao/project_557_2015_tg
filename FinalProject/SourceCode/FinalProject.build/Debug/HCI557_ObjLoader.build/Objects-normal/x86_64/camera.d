@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/gl_common/camera.cpp \
-  /Users/pro/Desktop/Fall2015/COMS557/project_557_2015_tg/FinalProject/SourceCode/../gl_common/camera.h \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/gl_common/camera.cpp \
+  /Users/pro/Desktop/Fall2015/COMS557/yo_557_2015_mt/FinalProject/SourceCode/../gl_common/camera.h \
   /usr/local/include/GL/glew.h /usr/local/include/glm/glm.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/fwd.hpp \

@@ -14,19 +14,20 @@
 #define GLM_FORCE_INLINE
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtx/transform.hpp>
 
-#include "GLObject.h"
+#include "GLObjectObj.h"
 #include "ObjectIdFactory.h"
 
 using namespace std;
 
-class ChessPiece : public GLObject
+class ChessPiece : public GLObjectObj
 {
     // Ray intersection test has access to protected functions
     friend class RayIntersectionTest;
 
 public:
-    ChessPiece(string filename);
+	ChessPiece(string filename, string type);
     ChessPiece();
     ~ChessPiece();
 
@@ -61,6 +62,20 @@ public:
     void updateVertices(float* vertices);
 
     ObjectId* getObjectId();
+
+    string getType();
+	
+	void setPlayer(int);
+	int getPlayer();
+	
+	void setLocation(glm::vec3);
+    void moveToLocation(glm::vec3);
+    glm::mat4 getMatrix();
+	glm::vec3 getLocation();
+	
+	void translatePiece(glm::vec3);
+	
+	bool intersect(const glm::vec3& ray_start, const glm::vec3&  ray_stop, vector<glm::vec3>& intersect_list);
 
 private:
 
@@ -97,13 +112,9 @@ private:
     bool                    _file_ok;
     ObjectId*               _object_id;
     string _model_path;
-
-protected:
-    // The data
-    vector<glm::vec3>       _vertices;
-    vector<glm::vec4>       _vertex_colors;
-    vector<glm::vec3>       _normals;
-    vector<GLuint>          _elements;
+	string                  _object_type;
+	int						_object_player;
+	glm::vec3				_object_location;
 
 private:
     // obj file data
@@ -118,4 +129,5 @@ private:
     unsigned int            _vboID[3]; // Our Vertex Buffer Object
 
     GLuint                  _elementbuffer;
+	
 };

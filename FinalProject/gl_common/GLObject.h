@@ -94,12 +94,6 @@ public:
      Set the appearance of this object
      */
     void setApperance(GLAppearance& apperance);
-    
-    
-    /*!
-     Get the apperance of this object
-     */
-    GLAppearance getApperance();
 
 
     /*!

@@ -351,8 +351,6 @@ public:
     void setTexture(GLTexture* texture);
     void setTexture(GLMultiTexture* texture);
     
-    vector<GLTextureBase*> getTexture();
-    
 protected:
     
     /*!

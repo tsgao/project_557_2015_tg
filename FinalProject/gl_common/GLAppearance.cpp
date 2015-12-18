@@ -467,8 +467,5 @@ void GLAppearance::setTexture(GLMultiTexture* texture)
 
 }
 
-vector<GLTextureBase*> GLAppearance::getTexture(){
-    return _textures;
-}
 
 
